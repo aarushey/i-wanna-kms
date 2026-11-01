@@ -1,0 +1,20 @@
+# Java / Maven
+backend/target/
+*.class
+
+# Next.js / Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+npm-debug.log*
+
+# Receipts generated at runtime
+backend/receipts/*.txt
+!backend/receipts/.gitkeep
+
+# IDE & OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db

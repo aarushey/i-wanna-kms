@@ -47,10 +47,43 @@ public class DatabaseConnection {
             LOGGER.log(Level.WARNING, "db.properties not found, using default credentials", e);
         }
 
-        this.driver = props.getProperty("db.driver", "com.mysql.cj.jdbc.Driver");
-        this.url = props.getProperty("db.url", "jdbc:mysql://localhost:3306/unibook_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC");
-        this.user = props.getProperty("db.user", "root");
-        this.password = props.getProperty("db.password", "root");
+        String defaultUrl = props.getProperty("db.url", "jdbc:mysql://localhost:3306/unibook_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC");
+        String envUrl = System.getenv("DB_URL");
+        if (envUrl == null || envUrl.isBlank()) {
+            envUrl = System.getenv("MYSQL_URL");
+        }
+        if (envUrl == null || envUrl.isBlank()) {
+            envUrl = System.getenv("DATABASE_URL");
+        }
+        if (envUrl != null && !envUrl.isBlank()) {
+            if (envUrl.startsWith("mysql://")) {
+                envUrl = "jdbc:" + envUrl;
+            }
+            this.url = envUrl;
+        } else {
+            this.url = defaultUrl;
+        }
+
+        String envUser = System.getenv("DB_USER");
+        if (envUser == null || envUser.isBlank()) {
+            envUser = System.getenv("MYSQLUSER");
+        }
+        if (envUser == null || envUser.isBlank()) {
+            envUser = System.getenv("MYSQL_USER");
+        }
+        this.user = (envUser != null && !envUser.isBlank()) ? envUser : props.getProperty("db.user", "root");
+
+        String envPassword = System.getenv("DB_PASSWORD");
+        if (envPassword == null) {
+            envPassword = System.getenv("MYSQLPASSWORD");
+        }
+        if (envPassword == null) {
+            envPassword = System.getenv("MYSQL_PASSWORD");
+        }
+        this.password = (envPassword != null) ? envPassword : props.getProperty("db.password", "root");
+
+        String envDriver = System.getenv("DB_DRIVER");
+        this.driver = (envDriver != null && !envDriver.isBlank()) ? envDriver : props.getProperty("db.driver", "com.mysql.cj.jdbc.Driver");
     }
 
     private void testOrInitializeDatabase() {
