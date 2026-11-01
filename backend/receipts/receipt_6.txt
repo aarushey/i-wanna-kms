@@ -1,0 +1,32 @@
+================================================================================
+                     UNIBOOK CAMPUS FACILITY RESERVATION                       
+                        OFFICIAL BOOKING RECEIPT                                
+================================================================================
+
+RECEIPT ID        : UBK-2026-0AC007F8
+BOOKING REFERENCE : #6
+ISSUED AT         : 2026-10-26 12:50:28
+STATUS            : CONFIRMED
+
+--------------------------------------------------------------------------------
+RESERVATION DETAILS:
+  * Event Name    : Aerodynamics Guest Keynote
+  * Scheduled Date: 2026-11-01
+
+VENUE SPECIFICATION:
+  * Facility      : Newton Physics Amphitheatre (ID: 5)
+  * Building      : Basic Sciences - Block D
+  * Seating Cap.  : 220 Attendees
+
+ORGANIZER / DEPARTMENT:
+  * Coordinator   : Marcus Vance
+  * Department    : Mechanical Engineering Society
+  * Contact Email : vance.mech@campus.edu
+
+--------------------------------------------------------------------------------
+AUDIT & VERIFICATION:
+  * Academic Engine : Java Thread-Safe synchronized BookingService%n  * Database Audit  : MySQL Trigger 'After_Booking_Insert' incremented counter%n  * Security Hash   : SHA-081A4453
+
+================================================================================
+                 Generated automatically by UniBook File I/O Engine              
+================================================================================

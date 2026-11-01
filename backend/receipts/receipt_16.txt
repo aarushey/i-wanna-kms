@@ -1,0 +1,32 @@
+================================================================================
+                     UNIBOOK CAMPUS FACILITY RESERVATION                       
+                        OFFICIAL BOOKING RECEIPT                                
+================================================================================
+
+RECEIPT ID        : UBK-2026-286BA757
+BOOKING REFERENCE : #16
+ISSUED AT         : 2026-10-26 12:34:51
+STATUS            : CONFIRMED
+
+--------------------------------------------------------------------------------
+RESERVATION DETAILS:
+  * Event Name    : m
+  * Scheduled Date: 2026-11-28
+
+VENUE SPECIFICATION:
+  * Facility      : Turing Grand Auditorium (ID: 1)
+  * Building      : Alan Turing Hall - Block A
+  * Seating Cap.  : 450 Attendees
+
+ORGANIZER / DEPARTMENT:
+  * Coordinator   : Dr. Aris Thorne
+  * Department    : Computer Science & AI
+  * Contact Email : thorne.cs@campus.edu
+
+--------------------------------------------------------------------------------
+AUDIT & VERIFICATION:
+  * Academic Engine : Java Thread-Safe synchronized BookingService%n  * Database Audit  : MySQL Trigger 'After_Booking_Insert' incremented counter%n  * Security Hash   : SHA-E69AE806
+
+================================================================================
+                 Generated automatically by UniBook File I/O Engine              
+================================================================================

@@ -1,0 +1,32 @@
+================================================================================
+                     UNIBOOK CAMPUS FACILITY RESERVATION                       
+                        OFFICIAL BOOKING RECEIPT                                
+================================================================================
+
+RECEIPT ID        : UBK-2026-F725941E
+BOOKING REFERENCE : #10
+ISSUED AT         : 2026-10-27 01:22:40
+STATUS            : CONFIRMED
+
+--------------------------------------------------------------------------------
+RESERVATION DETAILS:
+  * Event Name    : CHOPPED WEDS CHOPPED [Day 2026-12-06]
+  * Scheduled Date: 2026-12-06
+
+VENUE SPECIFICATION:
+  * Facility      : Ada Lovelace Seminar Hall (ID: 4)
+  * Building      : Software Engineering Wing - Block C
+  * Seating Cap.  : 60 Attendees
+
+ORGANIZER / DEPARTMENT:
+  * Coordinator   : Dr. Priya Nair
+  * Department    : Bioinformatics & Genetics
+  * Contact Email : nair.bio@campus.edu
+
+--------------------------------------------------------------------------------
+AUDIT & VERIFICATION:  * Academic Engine : Java Thread-Safe synchronized BookingService
+  * Database Audit  : MySQL Trigger 'After_Booking_Insert' incremented counter
+  * Security Hash   : SHA-C7BDEB7F
+================================================================================
+                 Generated automatically by UniBook File I/O Engine              
+================================================================================

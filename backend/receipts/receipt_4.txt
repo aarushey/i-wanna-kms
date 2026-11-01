@@ -1,0 +1,32 @@
+================================================================================
+                     UNIBOOK CAMPUS FACILITY RESERVATION                       
+                        OFFICIAL BOOKING RECEIPT                                
+================================================================================
+
+RECEIPT ID        : UBK-2026-2F617445
+BOOKING REFERENCE : #4
+ISSUED AT         : 2026-10-26 12:50:28
+STATUS            : CONFIRMED
+
+--------------------------------------------------------------------------------
+RESERVATION DETAILS:
+  * Event Name    : Campus Cultural Orientation 2026
+  * Scheduled Date: 2026-10-29
+
+VENUE SPECIFICATION:
+  * Facility      : Ada Lovelace Seminar Hall (ID: 4)
+  * Building      : Software Engineering Wing - Block C
+  * Seating Cap.  : 60 Attendees
+
+ORGANIZER / DEPARTMENT:
+  * Coordinator   : Elena Rostova
+  * Department    : Student Affairs & Cultural Council
+  * Contact Email : affairs@campus.edu
+
+--------------------------------------------------------------------------------
+AUDIT & VERIFICATION:
+  * Academic Engine : Java Thread-Safe synchronized BookingService%n  * Database Audit  : MySQL Trigger 'After_Booking_Insert' incremented counter%n  * Security Hash   : SHA-CA3DFEE9
+
+================================================================================
+                 Generated automatically by UniBook File I/O Engine              
+================================================================================

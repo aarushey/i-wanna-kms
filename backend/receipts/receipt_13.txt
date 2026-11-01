@@ -1,0 +1,32 @@
+================================================================================
+                     UNIBOOK CAMPUS FACILITY RESERVATION                       
+                        OFFICIAL BOOKING RECEIPT                                
+================================================================================
+
+RECEIPT ID        : UBK-2026-C4E7B78B
+BOOKING REFERENCE : #13
+ISSUED AT         : 2026-10-28 05:55:36
+STATUS            : CONFIRMED
+
+--------------------------------------------------------------------------------
+RESERVATION DETAILS:
+  * Event Name    : Concurrent Test Candidate #6
+  * Scheduled Date: 2026-12-15
+
+VENUE SPECIFICATION:
+  * Facility      : Ramanujan Lecture Theatre (ID: 3)
+  * Building      : Mathematics Complex - Block B
+  * Seating Cap.  : 180 Attendees
+
+ORGANIZER / DEPARTMENT:
+  * Coordinator   : Dr. Aris Thorne
+  * Department    : Computer Science & AI
+  * Contact Email : thorne.cs@campus.edu
+
+--------------------------------------------------------------------------------
+AUDIT & VERIFICATION:  * Academic Engine : Java Thread-Safe synchronized BookingService
+  * Database Audit  : MySQL Trigger 'After_Booking_Insert' incremented counter
+  * Security Hash   : SHA-11F4195E
+================================================================================
+                 Generated automatically by UniBook File I/O Engine              
+================================================================================

@@ -1,0 +1,32 @@
+================================================================================
+                     UNIBOOK CAMPUS FACILITY RESERVATION                       
+                        OFFICIAL BOOKING RECEIPT                                
+================================================================================
+
+RECEIPT ID        : UBK-2026-B80F2097
+BOOKING REFERENCE : #2
+ISSUED AT         : 2026-10-26 12:50:28
+STATUS            : CONFIRMED
+
+--------------------------------------------------------------------------------
+RESERVATION DETAILS:
+  * Event Name    : Competitive Programming Hackathon
+  * Scheduled Date: 2026-10-27
+
+VENUE SPECIFICATION:
+  * Facility      : Von Neumann Computing Lab (ID: 2)
+  * Building      : Information Sciences - Block C
+  * Seating Cap.  : 80 Attendees
+
+ORGANIZER / DEPARTMENT:
+  * Coordinator   : Dr. Aris Thorne
+  * Department    : Computer Science & AI
+  * Contact Email : thorne.cs@campus.edu
+
+--------------------------------------------------------------------------------
+AUDIT & VERIFICATION:
+  * Academic Engine : Java Thread-Safe synchronized BookingService%n  * Database Audit  : MySQL Trigger 'After_Booking_Insert' incremented counter%n  * Security Hash   : SHA-5AA214E4
+
+================================================================================
+                 Generated automatically by UniBook File I/O Engine              
+================================================================================

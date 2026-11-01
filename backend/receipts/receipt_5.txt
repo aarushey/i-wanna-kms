@@ -1,0 +1,32 @@
+================================================================================
+                     UNIBOOK CAMPUS FACILITY RESERVATION                       
+                        OFFICIAL BOOKING RECEIPT                                
+================================================================================
+
+RECEIPT ID        : UBK-2026-92BF03DE
+BOOKING REFERENCE : #5
+ISSUED AT         : 2026-10-26 12:50:28
+STATUS            : CONFIRMED
+
+--------------------------------------------------------------------------------
+RESERVATION DETAILS:
+  * Event Name    : Spring Convocation Rehearsal
+  * Scheduled Date: 2026-10-31
+
+VENUE SPECIFICATION:
+  * Facility      : Turing Grand Auditorium (ID: 1)
+  * Building      : Alan Turing Hall - Block A
+  * Seating Cap.  : 450 Attendees
+
+ORGANIZER / DEPARTMENT:
+  * Coordinator   : Elena Rostova
+  * Department    : Student Affairs & Cultural Council
+  * Contact Email : affairs@campus.edu
+
+--------------------------------------------------------------------------------
+AUDIT & VERIFICATION:
+  * Academic Engine : Java Thread-Safe synchronized BookingService%n  * Database Audit  : MySQL Trigger 'After_Booking_Insert' incremented counter%n  * Security Hash   : SHA-95087C9D
+
+================================================================================
+                 Generated automatically by UniBook File I/O Engine              
+================================================================================
